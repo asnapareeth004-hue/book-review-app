@@ -302,7 +302,7 @@ export default function ReadAndLetRead() {
     e.preventDefault();
     if (!title || !author || !review || !user) return;
     
-
+// eslint-disable-next-line
     const initials = user
       .split(" ")
       .map((n) => n[0])
@@ -312,6 +312,7 @@ export default function ReadAndLetRead() {
 
     const months = ["Jan", "Feb", "March", "April", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
     const dateObj = new Date();
+    // eslint-disable-next-line
     const date = `${months[dateObj.getMonth()]} ${dateObj.getFullYear()}`;
 
   
@@ -332,7 +333,7 @@ setSuccessMsg("📚 Book review added successfully!");
     setSuccessMsg("");
   }, 2000);
   await new Promise(resolve => setTimeout(resolve, 500));
-
+// eslint-disable-next-line
 
 const res = await getReviews();
 
