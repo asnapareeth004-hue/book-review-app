@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5067/api";
+const BASE_URL = "https://book-review-app-production-2f60.up.railway.app/api";
 
 /* =========================
    GET all reviews
