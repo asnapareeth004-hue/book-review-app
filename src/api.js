@@ -1,0 +1,39 @@
+import axios from "axios";
+
+const BASE_URL = "http://localhost:5067/api";
+
+/* =========================
+   GET all reviews
+========================= */
+export const getReviews = () => {
+  return axios.get(`${BASE_URL}/Review`);
+};
+
+/* =========================
+   POST add review
+========================= */
+export const addReview = (data) => {
+  return axios.post(`${BASE_URL}/Review`, data, {
+    headers: {
+      "Content-Type": "application/json"
+    }
+  });
+};
+
+/* =========================
+   (Optional) DELETE review
+========================= */
+export const deleteReview = (id) => {
+  return axios.delete(`${BASE_URL}/Review/${id}`);
+};
+
+/* =========================
+   (Optional) UPDATE review
+========================= */
+export const updateReview = (id, data) => {
+  return axios.put(`${BASE_URL}/Review/${id}`, data, {
+    headers: {
+      "Content-Type": "application/json"
+    }
+  });
+};
