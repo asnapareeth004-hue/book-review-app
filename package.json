@@ -24,13 +24,12 @@
       "react-app",
       "react-app/jest"
     ],
-    
-  "rules": {
-    "no-unused-vars": "warn",
-    "jsx-a11y/alt-text": "warn",
-    "jsx-a11y/heading-has-content": "warn"
-  }}
-  ,
+    "rules": {
+      "no-unused-vars": "warn",
+      "jsx-a11y/alt-text": "warn",
+      "jsx-a11y/heading-has-content": "warn"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
