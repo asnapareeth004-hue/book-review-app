@@ -1,19 +1,19 @@
 import axios from "axios";
 
-const BASE_URL = "https://book-review-app-1-pbw6.onrender.com/";
+const BASE_URL = "https://book-review-app-1-pbw6.onrender.com";
 
 /* =========================
    GET all reviews
 ========================= */
 export const getReviews = () => {
-  return axios.get(`${BASE_URL}/Review`);
+  return axios.get(`${BASE_URL}/api/Review`);
 };
 
 /* =========================
    POST add review
 ========================= */
 export const addReview = (data) => {
-  return axios.post(`${BASE_URL}/Review`, data, {
+  return axios.post(`${BASE_URL}/api/Review`, data, {
     headers: {
       "Content-Type": "application/json"
     }
