@@ -335,27 +335,7 @@ setSuccessMsg("📚 Book review added successfully!");
   await new Promise(resolve => setTimeout(resolve, 500));
 // eslint-disable-next-line
 
-const res = await getReviews();
-
-
-
-   //setReviews([...initialBooks, ...mappedReviews]);
-
-  setTitle("");
-  setAuthor("");
-  setGenre("Fiction");
-  setLanguage("English");
-  setRating(5);
-  setReview("");
-  setUser("");
-
-    
-
-    
-  
-  }
-  ;
-
+}
 
   return (
     <div
