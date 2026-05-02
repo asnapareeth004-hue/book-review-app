@@ -41,3 +41,10 @@ C:\Users\pc\Desktop\book-review-app\backend\BookReviewAPI\bin\Debug\net8.0\packa
 C:\Users\pc\Desktop\book-review-app\backend\BookReviewAPI\bin\Debug\net8.0\package.json
 C:\Users\pc\Desktop\book-review-app\backend\BookReviewAPI\bin\Debug\net8.0\public\manifest.json
 C:\Users\pc\Desktop\book-review-app\backend\BookReviewAPI\obj\Debug\net8.0\BookReviewAPI.sourcelink.json
+C:\Users\pc\Desktop\book-review-app\backend\BookReviewAPI\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\pc\Desktop\book-review-app\backend\BookReviewAPI\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\pc\Desktop\book-review-app\backend\BookReviewAPI\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\pc\Desktop\book-review-app\backend\BookReviewAPI\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\pc\Desktop\book-review-app\backend\BookReviewAPI\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\pc\Desktop\book-review-app\backend\BookReviewAPI\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\pc\Desktop\book-review-app\backend\BookReviewAPI\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
